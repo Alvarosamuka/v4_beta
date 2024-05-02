@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Paguina inicial</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar"> 
+            <!--intens da barra-->
+            <i class="fa-solid fa-square-poll-vertical">UNIION</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <!--Fins da barra-->
+            <button class="btn-default">
+                Comece aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+<!--Fim da barra-->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Sobre</a>
+                </li>
+            </ul>
+            <!--parte da barra mobile-->
+
+            <button class="btn-default">
+                Comece Agora
+            </button>
+        </div>
+    </header>
+    <!--fim da barra mobile-->
+    <main id="content"><!--parte escrita do home-->
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Finanças.
+                    <span>De forma simples</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit ut aliquam, purus sit amet
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Começe Agora
+                    </a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (99) 99999-9999
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div><!--fim da barra escrita-->
+
+            <div id="banner">
+                <img src="src/images/Brazilian_Football_Confederation_logo.svg.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cursos</h2>
+            <h3 class="section-subtitle">Feitos para você</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+<!--começo dos cursos-->
+                    <img src="src/images/mito.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(0)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>Modulo 01</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-fire"></i>
+                        </button>
+                    </div>
+                </div>
+<!--codigo dos cursos-->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/mito.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(0)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>Modulo 02</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-fire"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/mito.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(0)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>Modulo 03</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-fire"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/mito.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(0)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>Modulo 04</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-fire"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--fim dos cursos-->
+        <section id="testimonials"><!--comentarios-->
+            <img src="src/images/Neymar - FootyRenders.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    comentarios
+                </h2>
+                <h3 class="section-subtitle">
+                    avaliações sobre o curso
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/Lula de julieta (1).png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Lulinha do grau
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/eneas (1).png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Eu sabo muito
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+<!--fim dos comentarios-->
+    <footer><!--redes socias-->
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 UNIION
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer><!--fim dasredes socias-->
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
