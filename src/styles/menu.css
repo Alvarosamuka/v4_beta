@@ -1,3 +1,5 @@
+/*tudo relacionado a cor e tamanho*/ 
+
 #menu {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,7 @@
     justify-content: center;
     min-height: 100vh;
 }
-
+/*inicio de tudo relacionado a curso*/
 #dishes {
     width: 100%;
     display: flex;
@@ -77,4 +79,4 @@
     #menu .section-subtitle {
         text-align: center;
     }
-} 
+} /* fim de tudo relacionado a curso*/

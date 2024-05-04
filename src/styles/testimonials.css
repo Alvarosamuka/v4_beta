@@ -1,3 +1,4 @@
+/*imagem adicional, por enquanto está o Ney*/
 #testimonials {
     min-height: calc(100vh - 91px);
     display: flex;
@@ -18,7 +19,7 @@
 #testimonials_content {
     width: 50%;
 }
-
+/*parte dos feedback*/
 #feedbacks {
     display: flex;
     flex-direction: column;

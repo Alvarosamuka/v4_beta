@@ -1,3 +1,5 @@
+/*isso é o home em geral, tudo q está aqui faz parte do home*/
+
 #home {
     display: flex;
     min-height: calc(100vh - 91px);

@@ -7,7 +7,7 @@ header {
     z-index: 3;
 }
 
-#navbar {
+#navbar {/*a parte do menu*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,13 +19,13 @@ header {
     font-size: 24px;
 }
 
-#nav_list {
+#nav_list { /*tamanho dos nomes do menu*/
     display: flex;
     list-style: none;
     gap: 48px;
 }
 
-.nav-item a {
+.nav-item a { /*parte visual dos nomes do menu*/
     text-decoration: none;
     color: #1d1d1dad;
     font-weight: 600;
@@ -36,7 +36,7 @@ header {
     border-bottom: 3px solid var(--color-primary-4);
 }
 
-#mobile_btn {
+#mobile_btn {/*inicio da barra versão mobile*/
     display: none;
 }
 
@@ -75,4 +75,4 @@ header {
         list-style: none;
         text-align: center;
     } 
-}
+}/*fim da barra versão mobile*/
